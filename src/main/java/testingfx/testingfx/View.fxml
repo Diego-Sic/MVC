@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="63.0" layoutY="24.0" prefHeight="17.0" prefWidth="474.0" text="Welcome to the bad Calculator ( String Concatenator ) " textFill="#bf1e1e" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="63.0" layoutY="72.0" text="First Number" />
+      <TextField layoutX="63.0" layoutY="89.0" prefHeight="26.0" prefWidth="325.0" />
+      <Label layoutX="60.0" layoutY="81.0" text="+" textFill="#230cf0">
+         <font>
+            <Font size="89.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="170.0" text="Second Number" />
+      <TextField layoutX="63.0" layoutY="187.0" prefHeight="26.0" prefWidth="325.0" />
+      <Text layoutX="63.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resultado ( result )" textAlignment="CENTER" underline="true">
+         <fill>
+            <RadialGradient centerX="0.4445983379501385" centerY="0.5427553444180523" radius="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color opacity="0.7590821981430054" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <TextField layoutX="63.0" layoutY="338.0" />
+      <ProgressIndicator layoutX="63.0" layoutY="238.0" progress="0.0" />
+   </children>
+</Pane>
